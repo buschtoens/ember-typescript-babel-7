@@ -11,8 +11,14 @@ module.exports = function(defaults) {
     babel: {
       plugins: [
         '@babel/transform-typescript',
-        ['@babel/plugin-proposal-decorators', { legacy: true }],
-        ['@babel/plugin-proposal-class-properties', { loose: true }],
+        [
+          '@babel/plugin-proposal-decorators',
+          { legacy: true, decoratorsBeforeExport: true }
+        ],
+        [
+          '@babel/plugin-proposal-class-properties',
+          { loose: true }
+        ],
         '@babel/proposal-object-rest-spread'
       ]
     }
