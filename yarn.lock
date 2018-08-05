@@ -371,7 +371,7 @@
   dependencies:
     "@babel/helper-plugin-utils" "7.0.0-beta.56"
 
-"@babel/plugin-transform-modules-amd@7.0.0-beta.56", "@babel/plugin-transform-modules-amd@^7.0.0-beta.55":
+"@babel/plugin-transform-modules-amd@7.0.0-beta.56", "@babel/plugin-transform-modules-amd@^7.0.0-beta.56":
   version "7.0.0-beta.56"
   resolved "https://registry.yarnpkg.com/@babel/plugin-transform-modules-amd/-/plugin-transform-modules-amd-7.0.0-beta.56.tgz#000ae2a3f41a9dd43d55211df3fcc74ac8e17418"
   dependencies:
@@ -474,7 +474,7 @@
     "@babel/helper-regex" "7.0.0-beta.56"
     regexpu-core "^4.1.3"
 
-"@babel/preset-env@^7.0.0-beta.55":
+"@babel/preset-env@^7.0.0-beta.56":
   version "7.0.0-beta.56"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.0.0-beta.56.tgz#1d00bb1768c422b363be214c12f3b99dc5e4cc0c"
   dependencies:
@@ -2509,12 +2509,12 @@ ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-be
     ember-cli-version-checker "^2.1.2"
     semver "^5.5.0"
 
-ember-cli-babel@buschtoens/ember-cli-babel#feat/configurable-file-extensions:
+ember-cli-babel@buschtoens/ember-cli-babel#fix/babel-preset-env:
   version "7.0.0-beta.3"
-  resolved "https://codeload.github.com/buschtoens/ember-cli-babel/tar.gz/04c3dfd2cfc935141258df01e0ce21477307ea71"
+  resolved "https://codeload.github.com/buschtoens/ember-cli-babel/tar.gz/9af472366dd1357505c43db035409c6a0ee1fd08"
   dependencies:
-    "@babel/plugin-transform-modules-amd" "^7.0.0-beta.55"
-    "@babel/preset-env" "^7.0.0-beta.55"
+    "@babel/plugin-transform-modules-amd" "^7.0.0-beta.56"
+    "@babel/preset-env" "^7.0.0-beta.56"
     amd-name-resolver "1.2.0"
     babel-plugin-debug-macros "^0.2.0-beta.6"
     babel-plugin-ember-modules-api-polyfill "^2.3.2"
